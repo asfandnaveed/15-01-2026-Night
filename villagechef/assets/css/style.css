@@ -1,0 +1,45 @@
+:root{
+    --primary:#F7B41A;
+}
+
+body{
+    background-color: #181818;
+}
+
+.h-heading{
+    font-family: "Contrail One";
+}
+
+
+.h-heading span{
+    color: var(--primary);
+}
+
+.btn-primary{
+
+    --bs-btn-bg : var(--primary);
+    --bs-btn-border-color:var(--primary);
+
+    --bs-btn-hover-bg : var(--primary);
+    --bs-btn-hover-border-color:var(--primary);
+
+    --bs-btn-active-bg : var(--primary);
+    --bs-btn-active-border-color:var(--primary);
+
+    /* background-color: var(--primary);
+    border-color: var(--primary); */
+}
+
+.h-logo{
+    width: 100px;
+}
+
+/* .btn-primary:hover{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:active{
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+} */
