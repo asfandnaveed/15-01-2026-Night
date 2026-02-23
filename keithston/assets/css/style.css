@@ -1,0 +1,28 @@
+:root{
+    --text-sub-heading:#E9BD8C;
+}
+
+body{
+    font-family: "Inter";
+}
+
+.h-heading{
+    font-family: "Sansita Swashed";
+}
+.header-section{
+    background-image: url("../images/header.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.h-sub-heading{
+    color: var(--text-sub-heading);
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: "Inter";
+}
+.h-learn-more{
+    color: var(--text-sub-heading);
+    text-decoration: none;
+}
