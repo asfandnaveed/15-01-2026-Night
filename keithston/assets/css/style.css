@@ -1,5 +1,8 @@
 :root{
     --text-sub-heading:#E9BD8C;
+    --btn-primary:#933C24;
+    --btn-hover-primary:#7b2f1a;
+    --btn-active-primary:#5a2010;
 }
 
 body{
@@ -25,4 +28,45 @@ body{
 .h-learn-more{
     color: var(--text-sub-heading);
     text-decoration: none;
+}
+.btn-primary{
+    --bs-btn-bg: var(--btn-primary);
+    --bs-btn-border-color:var(--btn-primary);
+
+    --bs-btn-hover-bg: var(--btn-hover-primary);
+    --bs-btn-hover-border-color:var(--btn-hover-primary);
+
+    --bs-btn-active-bg: var(--btn-active-primary);
+    --bs-btn-active-border-color:var(--btn-active-primary);
+}
+.top-product-heading{
+    font-family: "Sansita Swashed";
+    font-size: 3.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media(max-width:786px){
+    
+    .top-product-heading{
+        font-size: 2.8rem;
+    }
+}
+
+@media(max-width:576px){
+    
+    .top-product-heading{
+        font-size: 2.1rem;
+    }
+}
+.top-1{
+    background-image: url("../images/products/product-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1rem;
+    border-radius: 12px;
+}
+
+.top-1 img{
+    height: 200px;
 }
