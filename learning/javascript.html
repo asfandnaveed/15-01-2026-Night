@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1 id="headingText">Hello, world!</h1>
+    <button class="btn btn-danger" onclick="changeText();">Click me</button>
+    
+
+    <div>
+        <img id="img" src="assets/images/1.jpg" alt="">
+        <button onclick="changeImage();" class="btn btn-warning">Change Image</button>
+    </div>
+
+    <div class="d-flex">
+        <input id="inputPass" type="password" class="form-control">
+        <button onclick="changeInput();" class="btn btn-primary"><i class="bi bi-eye-fill"></i></button>
+    </div>
+
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <script>
+        function changeInput(){
+
+            document.getElementById('inputPass').type = 'text';
+        }
+
+
+
+
+         function changeImage (){
+            var imagePath = "assets/images/2.jpg";
+
+            document.getElementById('img').src = imagePath;
+        }
+
+        function changeText (){
+
+            var x = 10;
+            var y = 25;
+
+            var z = "Hello Corvit";
+            var a  = "Students";
+
+            
+
+            var headingText = document.getElementById('headingText');
+
+            headingText.innerHTML = '<div class="alert alert-primary">Hello Corvit</div>';
+            headingText.style.color = 'red';
+            headingText.style.fontSize = '4rem';
+        }
+
+       
+        
+    </script>
+  </body>
+</html>
