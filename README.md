@@ -11,3 +11,7 @@ https://www.figma.com/design/4wXwsTkU65wCRG3GjMA0ND/Bakery-Website-Ui--Community
 ________________________________________________________________________________________
 # FIGMA FOOD DASH WEBSITE DESIGN 
 https://www.figma.com/design/uSPJ31lZvpSTHzPVWuL735/Food-Website-UI-Design-Tutorial-in-Figma--Using-No-Cod--Community-?node-id=0-1&p=f&t=oofCOcicUexqxDls-0
+
+______________________________________________________________________________________
+# FIGMA FOOD HUT WEBSITE DESIGN 
+https://www.figma.com/design/i8rZcxefdAJgUsrpmklYCO/Food-Hut---Food-Ordering-Responsive-Design---Community-?node-id=11-5&p=f&t=xFItsa1xxIuOYLEg-0
