@@ -18,3 +18,7 @@ https://www.figma.com/design/i8rZcxefdAJgUsrpmklYCO/Food-Hut---Food-Ordering-Res
 ______________________________________________________________________________________
 # FIGMA WEATHER WEBSITE DESIGN 
 https://www.figma.com/design/1Y9cNx9OsBWHJxnet4iZxi/Weather-Web--Community---Copy-?node-id=0-1&p=f&t=OuaAiI1GNuGeD4Cz-0
+
+______________________________________________________________________________________
+# FIGMA ECOBAZAR WEBSITE DESIGN 
+https://www.figma.com/design/WzvvIwGn8HPd8ATqXC6vsP/Shopery---Organic-eCommerce-Shop-Website-Figma-Template--Community---Community-?node-id=460-39913&p=f&t=PQIzvfWRGNxu8c4Z-0
