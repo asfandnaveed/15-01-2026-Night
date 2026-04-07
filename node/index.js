@@ -1,0 +1,88 @@
+const express = require('express');
+const mysql = require('mysql2');
+const cors = require('cors');
+const app = express();
+
+
+app.use(cors());
+app.use('/uploads', express.static('uploads'));
+
+
+const db = mysql.createConnection({
+    host: "localhost",
+    user: "root",
+    password: "",
+    database: "corvit_15_02_2026",
+
+});
+
+db.connect((err) => {
+
+    if (err) {
+        console.log("Connection Error !!");
+    } else {
+        console.log("Connection Success !!");
+    }
+
+});
+
+// localhost:3000/api/products
+app.get('/api/products', (req, res) => {
+
+    const sql = "SELECT * FROM products";
+
+    db.query(sql, (err, result) => {
+
+        if (err) {
+
+            res.json({
+                status: false,
+                message: "Unable to Fetch Products !!"
+            });
+
+        } else {
+            res.json({
+                status: true,
+                message: "Products Data ! ",
+                products: result
+            });
+        }
+
+    });
+
+});
+
+app.get('/api/product/detail/:id', (req, res) => {
+
+    const productID = req.params.id;
+
+    const sql = "SELECT * FROM products WHERE id=?";
+
+    db.query(sql, [productID], (err, result) => {
+
+        if (err) {
+
+            res.json({
+                status: false,
+                message: "Unable to Fetch Product Detail !!"
+            });
+
+        } else {
+            res.json({
+                status: true,
+                message: "Product Detail ! ",
+                products: result
+            });
+        }
+    });
+});
+
+
+
+
+// localhost:3000
+const PORT = 3000;
+app.listen(PORT, () => {
+
+    console.log("Server is Running  !! ");
+});

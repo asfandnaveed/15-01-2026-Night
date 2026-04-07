@@ -61,3 +61,11 @@ header {
     position: sticky;
     top: 50px;
 }
+.p-img{
+    height: 200px;
+}
+
+.text-hidden{
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
