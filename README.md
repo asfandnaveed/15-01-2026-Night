@@ -11,3 +11,14 @@ https://www.figma.com/design/4wXwsTkU65wCRG3GjMA0ND/Bakery-Website-Ui--Community
 ________________________________________________________________________________________
 # FIGMA FOOD DASH WEBSITE DESIGN 
 https://www.figma.com/design/uSPJ31lZvpSTHzPVWuL735/Food-Website-UI-Design-Tutorial-in-Figma--Using-No-Cod--Community-?node-id=0-1&p=f&t=oofCOcicUexqxDls-0
+
+______________________________________________________________________________________
+# FIGMA FOOD HUT WEBSITE DESIGN 
+https://www.figma.com/design/i8rZcxefdAJgUsrpmklYCO/Food-Hut---Food-Ordering-Responsive-Design---Community-?node-id=11-5&p=f&t=xFItsa1xxIuOYLEg-0
+______________________________________________________________________________________
+# FIGMA WEATHER WEBSITE DESIGN 
+https://www.figma.com/design/1Y9cNx9OsBWHJxnet4iZxi/Weather-Web--Community---Copy-?node-id=0-1&p=f&t=OuaAiI1GNuGeD4Cz-0
+
+______________________________________________________________________________________
+# FIGMA ECOBAZAR WEBSITE DESIGN 
+https://www.figma.com/design/WzvvIwGn8HPd8ATqXC6vsP/Shopery---Organic-eCommerce-Shop-Website-Figma-Template--Community---Community-?node-id=460-39913&p=f&t=PQIzvfWRGNxu8c4Z-0
