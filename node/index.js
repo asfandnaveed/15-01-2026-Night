@@ -71,7 +71,7 @@ app.get('/api/product/detail/:id', (req, res) => {
             res.json({
                 status: true,
                 message: "Product Detail ! ",
-                products: result
+                product: result[0]
             });
         }
     });

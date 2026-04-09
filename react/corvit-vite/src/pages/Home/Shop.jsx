@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import './Shop.css'
+import { useNavigate } from "react-router-dom";
 
 
 
@@ -9,6 +10,8 @@ export default function ShopPage() {
 
     const [productsData, setProductsData] = useState();
     const [isLoading, setIsLoading] = useState(true);
+
+    const navigate = useNavigate();
 
     const getProducts = async () => {
 
@@ -114,7 +117,7 @@ export default function ShopPage() {
                         productsData.products.map((product) => (
 
                             <div className="col-lg-3 col-md-4 col-sm-6" >
-                                <div className="card h-100 shadow-sm">
+                                <div className="card h-100 shadow-sm" onClick={()=>navigate(`/product/productDetail/${product.id}`) }>
                                     <img
                                         src={baseURL+product.image}
                                         className="card-img-top"
