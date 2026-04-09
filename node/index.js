@@ -6,6 +6,7 @@ const app = express();
 
 app.use(cors());
 app.use('/uploads', express.static('uploads'));
+app.use(express.json());
 
 
 const db = mysql.createConnection({
@@ -74,6 +75,47 @@ app.get('/api/product/detail/:id', (req, res) => {
                 product: result[0]
             });
         }
+    });
+});
+
+
+app.post('/api/user/login', (req, res) => {
+
+    const { email, pass } = req.body;
+
+    const sql = "SELECT * FROM users WHERE email=?";
+
+    db.query(sql, [email], (err, result) => {
+
+        if (err) {
+            return res.json({
+                status: false,
+                message: "Unable to login !!"
+            });
+        }
+
+        if (result.length == 0) {
+            return res.json({
+                status: false,
+                message: "User is not registered !!"
+            });
+        }
+
+        const user = result[0];
+
+        if (user.password != pass) {
+            return res.json({
+                status: false,
+                message: "Inavlid Password !!"
+            });
+        }
+
+        res.json({
+            status: true,
+            message: "User Login with Success !!",
+            user:user
+        });
+
     });
 });
 
